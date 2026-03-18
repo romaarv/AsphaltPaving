@@ -1,0 +1,48 @@
+.prices {
+    background-color: #c33f02;
+}
+main {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+}
+
+main p, ul {
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+main h2 {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.mainContainer {
+    grid-template-columns: 1fr 1fr;
+    display: flex;  
+    align-items: flex-start;
+    margin-left: 20px;
+}
+main a {
+    text-decoration: none;
+}
+main a:link{
+    color: black;
+}
+main a:visited{
+    color: black;
+}
+
+.leftContainer {
+    min-width: 500px;
+}
+@media (max-width: 1150px) {
+    .mainContainer {
+        grid-template-columns: 1;
+        display: table;
+    }
+    .leftContainer, .rightContainer {
+        width: 500px;
+        padding-right: 20px;
+    }
+}

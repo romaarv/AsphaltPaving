@@ -1,0 +1,41 @@
+.asphalting, .ourServices {
+    background-color: #c33f02;
+}
+main {
+    color: black;
+    background-color: white;
+}
+main p {
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+main h1, main p {
+    margin-left: 20px;
+}
+
+#imgContainer {
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;  
+}
+#row {
+  display: table-row;
+}
+
+#cell {
+  display: table-cell;
+  padding: 10px;
+}
+@media (max-width: 1150px) {
+    #cell {
+        display: table;
+    }
+}

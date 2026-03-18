@@ -1,0 +1,37 @@
+.photos {
+    background-color: #c33f02;
+}
+main {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#workImg {
+    width : 90%;
+}
+
+main p {
+    font-size: 20px;
+    text-align: justify;
+}
+.mainContainer {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;  
+    margin-left: 20px;
+}
+#row {
+  display: table-row;
+}
+
+#cell {
+  display: table-cell;
+  padding: 10px;
+}
+@media (max-width: 1150px) {
+
+    #cell {
+        display: table;
+    }
+}
