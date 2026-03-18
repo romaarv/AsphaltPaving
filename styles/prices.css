@@ -1,0 +1,73 @@
+.prices {
+    background-color: #c33f02;
+}
+main {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+}
+
+main p, ul {
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+main h2 {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.mainContainer {
+    grid-template-columns: 1fr 1fr;
+    display: flex;  
+    align-items: flex-start;
+    margin-left: 20px;
+}
+main a {
+    text-decoration: none;
+}
+main a:link{
+    color: black;
+}
+main a:visited{
+    color: black;
+}
+
+.leftContainer {
+    min-width: 500px;
+}
+@media (max-width: 1150px) {
+    .mainContainer {
+        grid-template-columns: 1fr;
+        display: table;
+    }
+    .leftContainer, .rightContainer {
+        width: 500px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 507px) {
+    .leftContainer, .rightContainer{
+        width: 230px;
+        display: block;
+    }
+    .leftContainer li, .leftContainer p {
+        margin-right: 280px;
+        
+    }
+    .leftContainer h2{
+        text-align: justify;
+        margin-right: 300px;
+    }
+    .rightContainer li, .rightContainer h2, .rightContainer p {
+        margin: 0;
+        margin-right: 10px;
+    }
+    main h2 {
+        font-size: 20px;
+        marg
+    }
+    main  p, main li {
+        font-size: 15px;
+    }
+}
