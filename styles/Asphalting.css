@@ -39,3 +39,27 @@ main h1, main p {
         display: table;
     }
 }
+@media (max-width: 507px) {
+    .mainP {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    #cell h1 {
+        font-size: 22px;
+        margin-left: 0;
+    }
+    #table  p {
+        font-size: 15px;
+        margin: 0;
+        margin-right: 10px;
+    }
+    #asphalting {
+        width: 30px;
+    }
+    #imgContainer {
+        grid-template-columns: 1fr;
+        display: grid;
+        text-align: left;
+        margin: 0;
+    }
+}

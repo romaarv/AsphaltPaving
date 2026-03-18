@@ -41,7 +41,6 @@ main p {
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;  
     margin-top: 30px;
-
 }
 .mainAdditional h2, p {
     padding-right: 20px;
@@ -59,5 +58,39 @@ main p {
     .rightContainer {
        max-width: 500px;
        padding-right: 0;
+    }
+}
+@media (max-width: 507px) {
+    main h1 {
+        font-size: 26px;
+    }
+    main h2 {
+        font-size: 20px;
+    }
+    main  p {
+        font-size: 15px;
+        margin: 0;
+    }
+    .leftContainer, .rightContainer, #Add{
+        width: 200px;
+    }
+    .mainAdditional {
+        grid-template-columns: 1;
+        display: table;
+        width: 200px;
+        margin-top: 10px;
+
+    }
+    .mainContainer {
+        width: 200px; 
+    }
+    .mainAdditional p {
+        margin-bottom: 5px;
+    }
+    .mainAdditional h2 {
+        margin: 5px;
+    }
+    #addImg{
+        width: 50px;
     }
 }

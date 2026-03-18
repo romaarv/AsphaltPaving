@@ -12,3 +12,14 @@ main p {
     text-align: justify;
     margin-bottom: 20px;
 }
+@media (max-width: 507px) {
+    main h1 {
+        font-size: 26px;
+    }
+    main h2 {
+        font-size: 20px;
+    }
+    main  p {
+        font-size: 15px;
+    }
+}

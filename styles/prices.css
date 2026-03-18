@@ -38,11 +38,35 @@ main a:visited{
 }
 @media (max-width: 1150px) {
     .mainContainer {
-        grid-template-columns: 1;
+        grid-template-columns: 1fr;
         display: table;
     }
     .leftContainer, .rightContainer {
         width: 500px;
         padding-right: 20px;
+    }
+}
+@media (max-width: 507px) {
+    .leftContainer, .rightContainer{
+        width: 200px;
+        display: block;
+    }
+    .leftContainer li, .leftContainer p {
+        margin-right: 300px;
+        
+    }
+    .leftContainer h2{
+        text-align: justify;
+        margin-right: 320px;
+    }
+    .rightContainer li, .rightContainer h2, .rightContainer p {
+        margin: 0;
+    }
+    main h2 {
+        font-size: 20px;
+        marg
+    }
+    main  p, main li {
+        font-size: 15px;
     }
 }

@@ -30,8 +30,15 @@ main p {
   padding: 10px;
 }
 @media (max-width: 1150px) {
-
     #cell {
         display: table;
+    }
+}
+@media (max-width: 507px) {
+    main h1 {
+        font-size: 26px;
+    }
+    main  p {
+        font-size: 15px;
     }
 }

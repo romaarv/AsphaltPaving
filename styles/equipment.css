@@ -53,4 +53,24 @@ main p {
     #cell {
         display: table;
     }
+    .mainUp p {
+        margin-left: 10px;
+    }
+    main p {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 507px) {
+    main {
+        margin: 0;
+    }
+    main h1 {
+        font-size: 26px;
+        margin-right: 0;
+    }
+    main  p {
+        font-size: 15px;
+        margin-right: 0;
+        padding: 10px;
+    }
 }

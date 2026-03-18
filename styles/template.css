@@ -210,3 +210,39 @@ form {
         margin-right: 20px;
     }
 }
+
+@media (max-width: 507px) {
+    .headerH1 {
+        font-size: 7vw;
+    }
+    .headerImg {
+        width: 100px;
+    }
+    .dropdown-content a {
+        font-size: 4vw;
+    }
+    .topnav ul {
+        font-size: 5vw;
+    }
+    .contact-container, .contacts {
+        width: 200px;
+    }
+    .contact-container p {
+        margin: 0;
+        margin-right: 10px;
+    }
+    .contacts {
+        margin: 0;
+    }
+
+    .d-tr{
+        display: grid;
+    }
+    .footerContainer p {
+        font-size: 15px;
+    }
+    .footerContainer h1 {
+        font-size: 26px;
+    }
+
+}
