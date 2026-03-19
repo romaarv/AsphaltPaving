@@ -225,7 +225,9 @@ form {
         font-size: 5vw;
     }
     .contact-container, .contacts {
-        width: 200px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .contact-container p {
         margin: 0;
@@ -233,16 +235,17 @@ form {
     }
     .contacts {
         margin: 0;
+        align-items: center;
     }
 
     .d-tr{
         display: grid;
     }
     .footerContainer p {
-        font-size: 15px;
+        font-size: 18px;
     }
-    .footerContainer h1 {
-        font-size: 26px;
+    .footerContainer h2 {
+        font-size: 20px;
     }
 
 }

@@ -42,14 +42,14 @@ main h1, main p {
 @media (max-width: 507px) {
     .mainP {
         margin-left: 10px;
-        font-size: 15px;
+        font-size: 20px;
     }
     #cell h1 {
         font-size: 22px;
         margin-left: 0;
     }
     #table  p {
-        font-size: 15px;
+        font-size: 20px;
         margin: 0;
         margin-right: 10px;
     }

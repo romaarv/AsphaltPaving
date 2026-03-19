@@ -57,13 +57,14 @@ main .button:hover {
 }
 @media (max-width: 507px) {
 	.leftContainer, .rightContainer {
-		width: 200px;
+		width: 100%;
 		padding-right: 10px;
 	}
 	.leftContainer p {
 		margin: 0;
 		padding: 0;
 		font-size: 15px;
+		margin-right: 10px;
 	}
 	.leftContainer h1 {
 		font-size: 26px;
@@ -72,6 +73,7 @@ main .button:hover {
 		font-size: 15px;
 		margin: 0;
 		padding: 0;
+		margin-right: 10px;
 	}
 	.rightContainer h2 {
 		font-size: 20px;

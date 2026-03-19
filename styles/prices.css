@@ -42,32 +42,30 @@ main a:visited{
         display: table;
     }
     .leftContainer, .rightContainer {
-        width: 500px;
-        padding-right: 20px;
+        width: 100%;
+        min-width: 100%;
     }
 }
 @media (max-width: 507px) {
-    .leftContainer, .rightContainer{
-        width: 230px;
+    .leftContainer, .rightContainer, .mainContainer{
+        width: 100%;
         display: block;
     }
-    .leftContainer li, .leftContainer p {
-        margin-right: 280px;
-        
-    }
+    
     .leftContainer h2{
-        text-align: justify;
-        margin-right: 310px;
-    }
-    .rightContainer li, .rightContainer h2, .rightContainer p {
         margin: 0;
         margin-right: 10px;
+        margin-bottom: 10px;
     }
-    main h2 {
+    
+    .rightContainer h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    main  p, main li, main ul {
         font-size: 20px;
-        marg
-    }
-    main  p, main li {
-        font-size: 15px;
+        margin: 0;
+        margin-bottom: 10px;
     }
 }

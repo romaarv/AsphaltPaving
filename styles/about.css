@@ -71,18 +71,18 @@ main p {
         font-size: 15px;
         margin: 0;
     }
-    .leftContainer, .rightContainer, #Add{
-        width: 200px;
+     .leftContainer, .rightContainer, #Add{
+        width: 100%;
     }
     .mainAdditional {
         grid-template-columns: 1;
         display: table;
-        width: 200px;
+        width: 100%;
         margin-top: 10px;
 
     }
     .mainContainer {
-        width: 200px; 
+        width: 100%; 
     }
     .mainAdditional p {
         margin-bottom: 5px;
