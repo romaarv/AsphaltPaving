@@ -1,0 +1,22 @@
+.ourServices, .roadrepair {
+    background-color: #c33f02;
+}
+main {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+@media (max-width: 507px) {
+    main h1 {
+        font-size: 26px;
+    }
+    main h2 {
+        font-size: 22px;
+    }
+}

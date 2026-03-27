@@ -1,0 +1,75 @@
+.ourServices, .equipment {
+    background-color: #c33f02;
+}
+main {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main p {
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 40px;
+}
+.mainUp {
+    grid-template-columns: 1fr 1fr;
+    display: flex;  
+    text-align: center;
+    padding-top: 20px;
+}
+.mainUp p {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;  
+}
+#row {
+  display: table-row;
+
+}
+
+#cell {
+  display: table-cell;
+  padding: 10px;
+  align-content: center;
+}
+#cell h1 {
+    text-align: center;
+}
+#cell p {
+    margin-bottom: 10px;
+}
+#asphalting {
+    width: 100%;
+}
+@media (max-width: 1150px) {
+    .mainUp {
+        display: table;
+    }
+    #cell {
+        display: table;
+    }
+    .mainUp p {
+        margin-left: 10px;
+    }
+    main p {
+        padding-right: 10px;
+    }
+}
+@media (max-width: 507px) {
+    main {
+        margin: 0;
+    }
+    main h1 {
+        font-size: 26px;
+        margin-right: 0;
+    }
+    main  p {
+        margin-right: 10px;
+        padding: 10px;
+    }
+}
